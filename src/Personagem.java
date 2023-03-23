@@ -98,6 +98,10 @@ public class Personagem {
 
     }
 
+    public String getAlimento (){
+        return "PERSONAGEM NÃO POSSUI ALIMENTO!!!";
+    }
+
     public void scan (){
 
         System.out.println("situation:"+this.situation);
@@ -108,6 +112,7 @@ public class Personagem {
         System.out.println("defense:"+this.defense);
         System.out.println("level:"+this.level);
         System.out.println("Type:"+this.type);
+
     }
 
 }

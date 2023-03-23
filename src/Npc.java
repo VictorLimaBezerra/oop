@@ -15,7 +15,7 @@ public class Npc extends Personagem {
         this.caracterisrica = caracterisrica;
     }
 
-    public void scanNpc() {
+    public void scan() {
         super.scan();
         System.out.println("Característica:"+this.caracterisrica);
     }

@@ -8,16 +8,16 @@ public class Animal extends Personagem{
     }
 
     public String getAlimento() {
-        return alimento;
+        return this.alimento;
     }
 
     public void setAlimento(String alimento) {
         this.alimento = alimento;
     }
 
-    public void scanAnimal() {
+    public void scan() {
         super.scan();
-        System.out.println("ALimento:"+this.alimento);
+        System.out.println("Alimento:"+this.alimento);
     }
 
 }
